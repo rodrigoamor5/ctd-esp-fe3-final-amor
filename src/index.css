@@ -19,6 +19,14 @@ code {
   cursor: pointer;
 }
 
+.themeButton{
+  background-color: rgba(0, 0, 0, 0.646);
+  padding: 15px;
+  border: salmon;
+  width: 100%;
+  cursor: hand;
+}
+
 h1{
   text-align: center;
 }
@@ -119,4 +127,24 @@ tr:nth-child(even) {
 }
 .dark > a {
   color: white;
+}
+
+.detail {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  margin: 16px;
+  max-width: 300px;
+  background-color: #fff;
+  text-align: left;
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+}
+
+.card p {
+  margin: 8px 0;
 }
